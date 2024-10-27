@@ -1,4 +1,8 @@
+This is an emulator for some made-up CPU architecture
 
+Use main.py to compile and execute .asm files or run already compiled .bin files
+
+There are example programs in examples folder
 ```
 Name    opcode  argument
 LDA	000011  xxxxxxxx	load from memory to A

@@ -40,3 +40,4 @@ GEC     101110                  save value of flag C to A
 GEZ     110000                  save value of flag Z to A
 
 ```
+Compiler allows you to set markers using : . For more details see examples

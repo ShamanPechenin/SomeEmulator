@@ -13,7 +13,7 @@ if path.endswith(".asm"):
         name = input("Enter file name without extension:\n")
         if not name.endswith(".bin"):
             name += ".bin"
-        with open("name", "wb") as file:
+        with open(name, "wb") as file:
             for value in machine_code:
                 file.write(value.to_bytes(1, "little"))
 elif path.endswith(".bin"):
